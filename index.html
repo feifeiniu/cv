@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>吴鹏飞的简历</title>
+    <!-- <link rel="stylesheet" href="//at.alicdn.com/t/font_974371_cqiyab42oyq.css"> -->
+    <style>
+        /*css reset*/
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        ul {
+          margin-left: 1em;
+        }
+        li {
+          margin-top: 10px;
+        }
+    
+        /*layout*/
+        body {
+          display: grid;
+          grid: auto auto / 1fr 300px 700px 1fr;
+        }
+        header {
+          background: lightgreen;
+          grid-column: 1 / span 4;
+          grid-row: 1;
+        }
+        main {
+          grid-column: 3;
+          grid-row: 2;
+        }
+        aside {
+    
+          grid-column: 2;
+          grid-row: 2;
+        }
+        @media (max-width: 1000px) {
+          body {
+            grid: 100px 400px / 1fr 200px 400px 1fr;
+          }   
+        }
+    
+        @media (max-width: 768px) {
+          body {
+            grid: auto auto auto / 1fr;
+            padding: 0 10px 30px 10px;
+          }
+          header {
+            grid-column: 1;
+            grid-row: 1;
+          }
+          main {
+            grid-column: 1;
+            grid-row: 2;
+          }
+          aside {
+            grid-column: 1;
+            grid-row: 3;
+          }
+        } 
+    
+        /*common*/
+        body {
+          font: 14px/1.5 Arial;
+          color: #333;
+          padding-bottom: 30px;
+        }
+    
+        /*page*/
+        header {
+          text-align: center;
+          padding: 30px;
+          background: #444;
+          color: #fff;
+        }
+        header img {
+          width:60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+        header figcaption {
+          font-weight: bold;
+          margin-top: 10px;
+        }
+        header figure p {
+          margin-top: 10px;
+          color: #ccc;
+        }
+    
+        section {
+          display: grid;
+          grid: auto auto / 50px 120px 1fr;
+          align-items: center;
+          margin-top: 20px;
+          padding: 10px;
+        }
+        section > .iconfont {
+          grid-row: 1;
+          grid-column: 1;
+          display: block;
+          width: 30px;
+          height: 30px;
+          background: #66a9a3;
+          border-radius: 50%;
+          font-size: 20px;
+          text-align: center;
+          color: #fff;
+        }
+        section > h2 {
+          grid-row: 1;
+          grid-column: 2;
+          font-size: 18px;
+        }
+        section > hr {
+          grid-row: 1;
+          grid-column: 3;
+          border: none;
+          height: 3px;
+          background: #66a9a3;
+        }
+        section >.detail {
+          grid-row: 2;
+          grid-column: 2/span 2
+        }
+        section .icon-list {
+          display: flex;
+          align-items: center;
+        }
+        section .icon-list .iconfont {
+          font-size: 20px;
+          margin-right: 10px;
+        }
+        section .skill-bar dt {
+          margin-top: 16px;
+        }
+        section .skill-bar dd {
+          height: 3px;
+          background: #eaeaea;
+        }
+        section .skill-bar dd div {
+          height: 100%;
+          background: #66a9a3;
+          margin-top: 10px;
+        }
+        section .timeline-panel {
+          display: grid;
+          grid: auto auto / 120px 1fr auto;
+          align-items: center;
+          margin-top: 16px;
+        }
+        section .timeline-panel .date {
+          grid-row: 1;
+          grid-column: 1;
+        }
+        section .timeline-panel > h3 {
+          grid-row: 1;
+          grid-column: 2;
+        }
+        section .timeline-panel .intro {
+          grid-row: 1;
+          grid-column: 3;
+          color: #666;
+        }
+        section .timeline-panel .detail {
+          grid-row: 2;
+          grid-column: 2/span 2;
+          margin-top: 10px;
+        }
+    
+      </style>
+</head>
+<body>
+    <header>
+        <figure>
+          <img src="0.jpg" alt="头像">
+          <figcaption>吴鹏飞</figcaption>
+          <p>应聘前端工程师</p>
+        </figure>
+      </header>
+      <main>    
+        <section>
+          <span class="iconfont icon-education"></span>
+          <h2>教育经历</h2>
+          <hr>
+          <div class="detail">
+            <div class="timeline-panel">
+              <div class="date">09/2016~07/2020</div>
+              <h3>哈尔滨师范大学</h3>
+              <p class="intro">计算机科学与技术专业</p>
+              <div class="detail">
+                <!-- 多次获得校一等奖学金，成绩排名专业前10%. -->
+              </div>
+            </div>
+            <!-- <div class="timeline-panel">
+              <div class="date">09/2013~07/2017</div>
+              <h3>浙江大学</h3>
+              <p class="intro">计算机专业</p>
+              <div class="detail">
+                多次获得校一等奖学金，成绩排名专业前10%.
+              </div>
+            </div> -->
+    
+          <!-- </div> -->
+        </section>
+        <section>
+          <span class="iconfont icon-experience"></span>
+          <h2>工作经历</h2>
+          <hr>
+          <div class="detail">
+            <!-- <div class="timeline-panel">
+              <div class="date">12/2016~01/2017</div>
+              <h3>沈阳东软集团</h3>
+              <p class="intro">实习</p> -->
+              <!-- <div class="detail">
+                <ul>
+                  <li>项目介绍： 该项目的目的是搭建线上学习平台，把线下课堂的完整学习流程搬到线上，平台包括课程展示、购买、直播、录播、作业、权限管理、停课复课、试听等几十个大功能。该项目采用前后分离的技术方案， 我主要负责前端部分的开发。项目前端部分使用Vue技术栈，移动端平台使用自己实现的vue ui组件库。</li>
+                  <li>技术栈：vue、vue-router、vuex、element-ui、typescript、webpack、es6、移动端</li>
+                  <li>项目成果: 项目支撑饥人谷日常教学活动、运营活动的正常开展，支持数千学生的日常线上学习，几十万用户的日常访问。</li>
+                </ul>
+              </div> -->
+              <div class="timeline-panel">
+              <div class="date">12/2019~04/2020</div>
+              <h3>哈尔滨甲骨文</h3>
+              <p class="intro">实习</p>
+            </div> 
+          </div>
+        </section>  
+        <section>
+          <span class="iconfont icon-project"></span>
+          <h2>项目经历</h2>
+          <hr>
+          <div class="detail">
+            <div class="timeline-panel">
+              <div class="date">08/2021~09/2021</div>
+              <h3>搭建 cnode 社区</h3>
+              <div class="detail">
+                <ul>
+                  <li>Vue-cli 搭建项目。</li>
+                  <li>利用 axios 获取网站数据</li>
+                  <li>利用 Vue-Router 实现组件间的跳转。</li>
+                  <li>源码：https://feifeiniu.github.io/cnode-1-website/#/</li>
+                </ul>
+              </div>
+            </div> 
+    <div class="timeline-panel">
+              <div class="date">08/2021~09/2021</div>
+              <h3>记账小软件</h3>
+              <div class="detail">
+                <ul>
+                  <li>运用 Vue-Router 实现页面跳转。</li>
+                  <li>使用 svg-icon 图标。</li>
+                  <li>vuex 全局数据管理</li>
+                  <li>全局使用 TypeScript。</li>
+                  <li>作品展示：https://feifeiniu.github.io/morney-1-website/#/money</li>
+                  <img src="money.png" alt="二维码展示">
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-panel">
+                <div class="date">08/2021~09/2021</div>
+                <h3>ball-ui(Element-UI)</h3>
+                <div class="detail">
+                  <ul>
+                    <li>此轮子包含了，button、tabs、radio、input、switchd 等组件</li>
+                    <li>使用 Vue Vite 搭建项目。</li>
+                    <li>利用了 Vue-Router 实现单页面跳转</li>
+                    <li>利用 axios 实现对服务器后端数据请求，实现账号注册，登录的功能</li>
+                    <li>使用 vue-loader的 Custom Blocks 功能实现代码的展示</li>
+                    <li>作品展示：https://feifeiniu.github.io/gulu-ui-dist/index.html#/</li>
+                    <img src="lunzi.png" alt="作品展示二维码">
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-panel">
+                <div class="date">05/2021~06/2021</div>
+                <h3>一个会动的动漫头像</h3>
+                <div class="detail">
+                  <ul>
+                    <li>利用 css 写出一个动漫头像</li>
+                    <li>利用原生 js 让每一行代码实现播放，从而表现头像绘出过程，并可以选择播放速度，推荐快速播放</li>
+                    <li>效果展示：https://feifeiniu.github.io/cartoon-2/src/index.html</li>
+                    <img src="cartoon.png" alt="作品展示二维码">
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-panel">
+                <div class="date">05/2021~06/2021</div>
+                <h3>手写简易 webpack</h3>
+                <div class="detail">
+                  <ul>
+                    <li>实现简易的 webpack 打包 js 文件功能</li>
+                    <li>将 src 目录内的两个不能相互运算的 js 文件，打包成在 dist 目录下的 bundle.js 文件，则可以执行该运算</li>
+                    <li>源码：https://github.com/feifeiniu/simple-webpack</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-panel">
+                <div class="date">05/2021~06/2021</div>
+                <h3>手写DOM</h3>
+                <div class="detail">
+                  <ul>
+                    <li>由于浏览器给的原本 dom 语句十分复杂难用，所以我对其进行了封装，封装了增、删、改、查、等一系列操作</li>
+                    <li>源码：https://github.com/feifeiniu/dom-1/tree/main/src</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-panel">
+                <div class="date">05/2021~06/2021</div>
+                <h3>前端导航</h3>
+                <div class="detail">
+                  <ul>
+                    <li>利用百度为引擎，构建自己的搜索导航</li>
+                    <li>包含增加网页图标，删除网页图标等逻辑。</li>
+                    <li>把数据存储在 Local Storage 中，数据不会因为刷新网页而消失</li>
+                    <li>效果展示：https://feifeiniu.github.io/daohangwangzhan/src/index.html</li>
+                    <img src="search.png" alt="作品展示二维码">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>    
+    
+      </main>
+      <aside>
+        <section>
+          <span class="iconfont icon-personal"></span>
+          <h2>基本信息</h2>
+          <hr>
+          <div class="detail">
+            <div class="icon-list"><span class="iconfont icon-phone"></span>13012341234</div>
+            <div class="icon-list"><span class="iconfont icon-wechat"></span>xiedaimala01</div>
+            <div class="icon-list"><span class="iconfont icon-email"></span>no-reply@jirengu.com</div>
+            <div class="icon-list"><span class="iconfont icon-education"></span>本科</div>
+    
+    
+    
+    
+          </div>
+        </section>
+        <section>
+          <span class="iconfont icon-introduction"></span>
+          <h2>掌握技能</h2>
+          <hr>
+          <div class="detail">
+            <ul>
+              <li>掌握HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等</li>
+              <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念</li>
+              <li>熟悉前后端交互技术JSONP、AJAX，了解fetch></li>     
+              <!-- <li>熟悉Node.js开发，能搭建基础后台开发</li> -->
+            </ul>
+          </div>
+        </section>
+        <section>
+          <span class="iconfont icon-skills"></span>
+          <h2>技能图谱</h2>
+          <hr>
+          <div class="detail">
+            <dl class="skill-bar">
+              <dt>JavaScript</dt>
+              <dd><div style="width:50%"></div></dd>
+              <dt>CSS3</dt>
+              <dd><div style="width:70%"></div></dd>
+              <dt>Node</dt>
+              <dd><div style="width:80%"></div></dd>
+              <dt>Vue</dt>
+              <dd><div style="width:60%"></div></dd>
+              <!-- <dt>React</dt>
+              <dd><div style="width:88%"></div></dd> -->
+            </dl>
+          </div>
+        </section>
+      </aside>
+</body>
+</html>
