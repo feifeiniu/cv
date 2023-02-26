@@ -1,17 +1,17 @@
 16
 40C:\practiceJS\cv\dist\cv.3464ddca.js.map133218718966920958 0
-27C:\practiceJS\cv\index.html133218721140102376 0
+27C:\practiceJS\cv\index.html133218822131658220 0
 22C:\practiceJS\cv\0.jpg133218690969521152 0
 27C:\practiceJS\cv\search.png133218592323484600 0
 26C:\practiceJS\cv\lunzi.png133218578113368133 0
-32C:\practiceJS\cv\dist\index.html133218721141118425 0
+32C:\practiceJS\cv\dist\index.html133218822132711281 0
 28C:\practiceJS\cv\cartoon.png133218589456977273 0
-21C:\practiceJS\cv\dist133218721141126149 1
+21C:\practiceJS\cv\dist133218822132736746 1
 36C:\practiceJS\cv\dist\0.7b11d3f7.jpg133218718967020955 0
 26C:\practiceJS\cv\money.png133218591256907541 0
 42C:\practiceJS\cv\dist\cartoon.a6809d04.png133218718967010954 0
 36C:\practiceJS\cv\dist\cv.3464ddca.js133218718966905905 0
 40C:\practiceJS\cv\dist\headP.cc8e519b.jpg133218687792790471 0
 40C:\practiceJS\cv\dist\lunzi.5cba57c3.png133218718966910905 0
-40C:\practiceJS\cv\dist\money.0cf7c591.png133218718967020955 0
+40C:\practiceJS\cv\dist\money.0cf7c591.png133218820170286982 0
 41C:\practiceJS\cv\dist\search.0f1d6dd2.png133218718966920958 0
