@@ -1,12 +1,12 @@
 16
 40C:\practiceJS\cv\dist\cv.3464ddca.js.map133218718966920958 0
-27C:\practiceJS\cv\index.html133218822131658220 0
+27C:\practiceJS\cv\index.html133218915141289685 0
 22C:\practiceJS\cv\0.jpg133218690969521152 0
 27C:\practiceJS\cv\search.png133218592323484600 0
 26C:\practiceJS\cv\lunzi.png133218578113368133 0
-32C:\practiceJS\cv\dist\index.html133218822132711281 0
+32C:\practiceJS\cv\dist\index.html133218915142434699 0
 28C:\practiceJS\cv\cartoon.png133218589456977273 0
-21C:\practiceJS\cv\dist133218822132736746 1
+21C:\practiceJS\cv\dist133218915142455210 1
 36C:\practiceJS\cv\dist\0.7b11d3f7.jpg133218718967020955 0
 26C:\practiceJS\cv\money.png133218591256907541 0
 42C:\practiceJS\cv\dist\cartoon.a6809d04.png133218718967010954 0
